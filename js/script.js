@@ -167,37 +167,7 @@ topButton.addEventListener("click", () => {
   });
 });
 
-// ===============================
-// Validation du formulaire
-// ===============================
 
-const form = document.getElementById("contactForm");
-
-if (form) {
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const inputs = form.querySelectorAll("input, textarea");
-
-    let valid = true;
-
-    inputs.forEach((input) => {
-      if (input.value.trim() === "") {
-        valid = false;
-
-        input.style.borderColor = "red";
-      } else {
-        input.style.borderColor = "#ced4da";
-      }
-    });
-
-    if (valid) {
-      alert("Merci ! Votre message est prêt à être envoyé.");
-
-      form.reset();
-    }
-  });
-}
 
 // ===============================
 // Animation des liens du menu

@@ -361,22 +361,23 @@
           </div>
         </div>
         <div class="col-lg-7">
-          <form id="contactForm" class="contact-form">
+          <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="570fc6e7-5cc7-4cb2-8ff5-5d4fa423d045">
             <div class="row">
               <div class="col-md-6 mb-3">
-                <input type="text" class="form-control" placeholder="Votre nom" required />
+                <input type="text" name="name" class="form-control" placeholder="Votre nom" required />
               </div>
               <div class="col-md-6 mb-3">
-                <input type="email" class="form-control" placeholder="Votre email" required />
+                <input type="email" name="email" class="form-control" placeholder="Votre email" required />
               </div>
             </div>
             <div class="mb-3">
-              <input type="text" class="form-control" placeholder="Sujet" required />
+              <input type="text" name="sujet" class="form-control" placeholder="Sujet" required />
             </div>
             <div class="mb-3">
-              <textarea class="form-control" rows="6" placeholder="Votre message..." required></textarea>
+              <textarea class="form-control" name="message" rows="6" placeholder="Votre message..." required></textarea>
             </div>
-            <button class="btn btn-primary btn-lg w-100">
+            <button class="btn btn-primary btn-lg w-100"  type="submit">
               <i class="fas fa-paper-plane"></i>
               Envoyer
             </button>
