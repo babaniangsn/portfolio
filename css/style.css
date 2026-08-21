@@ -276,6 +276,19 @@ TITRES
 
 /* A PROPOS */
 
+.apropos-text {
+  background: #fff;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+.apropos-text:hover {
+  transform: translateY(-8px);
+  border: 1px solid var(--primary);
+}
+
 .about-card {
   background: #fff;
   border-radius: 18px;
@@ -287,6 +300,7 @@ TITRES
 
 .about-card:hover {
   transform: translateY(-8px);
+  border: 1px solid var(--primary);
 }
 
 .about-card h4 {
@@ -384,9 +398,16 @@ TITRES
 
   height: 100%;
 }
+.project-card img {
+  width: 100%;
+  height: 100;
+  object-fit: contain;
+  object-position: center;
+}
 
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-8px);
+  border: 1px solid var(--primary);
 }
 
 .project-image {
@@ -455,6 +476,7 @@ TITRES
 
 .formation-card:hover {
   transform: translateY(-8px);
+  border: 1px solid var(--primary);
 }
 
 .formation-icon {
