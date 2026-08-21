@@ -409,7 +409,6 @@ TITRES
 
 .project-card:hover {
   transform: translateY(-8px);
-  border: 1px solid var(--primary);
 }
 
 .project-image {
