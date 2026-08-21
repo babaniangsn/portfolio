@@ -177,9 +177,9 @@ PHOTO
 
   border-radius: 50%;
 
-  padding: 6px;
+  padding: 2px;
 
-  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  background: linear-gradient(135deg, #000000, #030404);
 
   box-shadow: 0 25px 60px rgba(37, 99, 235, 0.35);
 }
