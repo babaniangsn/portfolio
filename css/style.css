@@ -292,10 +292,7 @@ TITRES
   border: 1px solid var(--border);
   transition: var(--transition);
 }
-.apropos-text:hover {
-  transform: translateY(-8px);
-  border: 1px solid var(--primary);
-}
+
 
 .about-card {
   background: #fff;
@@ -306,10 +303,7 @@ TITRES
   transition: var(--transition);
 }
 
-.about-card:hover {
-  transform: translateY(-8px);
-  border: 1px solid var(--primary);
-}
+
 
 .about-card h4 {
   margin-bottom: 20px;
